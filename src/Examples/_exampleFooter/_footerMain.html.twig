@@ -1,0 +1,14 @@
+{% sw_extends '@Storefront/storefront/base.html.twig' %}
+
+{% block base_footer %}
+    {% if theme_config('rhweb-footer-activate-newsletter') and theme_config('rhweb-newsletter-position') != 'column' %}
+        {% sw_include '@Storefront/storefront/rhweb-custom/snippets/footer/rhweb-newsletter.html.twig' with{
+            position: 'footer-above'
+        } %}
+    {% endif %}
+    <footer class="footer-main">
+        {% block base_footer_inner %}
+            {% sw_include '@Storefront/storefront/rhweb-custom/snippets/footer/rhweb-' ~ theme_config('rhweb-footer-layout-type') ~ '.html.twig' %}
+        {% endblock %}
+    </footer>
+{% endblock %}
