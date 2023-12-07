@@ -1,0 +1,25 @@
+{
+  "configInheritance": [
+    "@ParentThemeNamespace"
+  ],
+  "config": {
+    "rhweb-custom-color-field": {
+      "label": {
+        "en-GB": "Individial Color Field",
+        "de-DE": "Individuelles Farbfeld"
+      },
+      "helpText": {
+        "en-GB": "",
+        "de-DE": ""
+      },
+      "type": "color",
+      "editable": true,
+      "scss": true,
+      "value": true,
+      "tab": "tabName",
+      "block": "blockName",
+      "section": "sectionName",
+      "order": 100
+    }
+  }
+}
