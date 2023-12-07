@@ -1,0 +1,41 @@
+{
+    "name": "rhweb/childthemetemplate",
+    "description": "Child THeme Template | RH-Webdesign",
+    "version": "v1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RH-Webdesign",
+            "homepage": "https://rh-webdesign.com"
+        }
+    ],
+    "require": {
+        "shopware/core": "*"
+    },
+    "type": "shopware-platform-plugin",
+    "autoload": {
+        "psr-4": {
+            "RHWeb\\ChildThemeTemplate\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "RHWeb\\ChildThemeTemplate\\RHWebChildThemeTemplate",
+        "copyright": "(c) by RH-Webdesign",
+        "label": {
+            "de-DE": "Child Theme Template | RH-Webdesign",
+            "en-GB": "Child Theme Template | RH-Webdesign"
+        },
+        "description": {
+            "de-DE": "· • ● ○ Das ist eine kostenlose Vorlage",
+            "en-GB": "· • ● ○ This is a free template"
+        },
+        "manufacturerLink": {
+            "de-DE": "https://www.rh-webdesign.com",
+            "en-GB": "https://www.rh-webdesign.com"
+        },
+        "supportLink": {
+            "de-DE": "https://rh-webdesign.com",
+            "en-GB": "https://rh-webdesign.com/en"
+        }
+    }
+}

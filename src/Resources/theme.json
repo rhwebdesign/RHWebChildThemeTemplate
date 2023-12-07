@@ -1,0 +1,30 @@
+{
+    "name": "Child - Theme | Template",
+    "author": "RH-Webdesign",
+    "previewMedia": "app/child-theme-preview.jpg",
+    "views": [
+        "@Storefront",
+        "@ParentThemeNamespace",
+        "@RHWebChildThemeTemplate",
+        "@Plugins"
+    ],
+    "style": [
+        "app/storefront/src/scss/overrides.scss",
+        "@Storefront",
+        "@ParentThemeNamespace",
+        "app/storefront/src/scss/base.scss"
+    ],
+    "script": [
+        "@Storefront",
+        "@ParentThemeNamespace",
+        "app/storefront/dist/storefront/js/r-h-web-child-theme-template.js"
+    ],
+    "asset": [
+        "@Storefront",
+        "@ParentThemeNamespace",
+        "app/storefront/src/assets"
+    ],
+    "configInheritance": [
+        "@ParentThemeNamespace"
+    ]
+}
