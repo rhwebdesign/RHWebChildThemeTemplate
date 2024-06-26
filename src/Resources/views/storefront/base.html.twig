@@ -1,11 +1,6 @@
 {% sw_extends '@Storefront/storefront/base.html.twig' %}
 
 {% block base_footer %}
-    <div class="p-4 text-center bg-light">
-        <h4>{{ 'child-theme.alertHeader'|trans }}</h4>
-        <p>
-            {{ 'child-theme.alertText'|trans | raw }}
-        </p>
-    </div>
+    {# Here you can add your HTML to extend the Footer #}
     {{ parent() }}
 {% endblock %}

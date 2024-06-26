@@ -1,7 +1,7 @@
 {
     "name": "rhweb/childthemetemplate",
     "description": "Child THeme Template | RH-Webdesign",
-    "version": "v1.0.0",
+    "version": "v1.0.1",
     "license": "MIT",
     "authors": [
         {
@@ -32,10 +32,6 @@
         "manufacturerLink": {
             "de-DE": "https://www.rh-webdesign.com",
             "en-GB": "https://www.rh-webdesign.com"
-        },
-        "supportLink": {
-            "de-DE": "https://rh-webdesign.com",
-            "en-GB": "https://rh-webdesign.com/en"
         }
     }
 }

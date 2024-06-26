@@ -1,6 +1,4 @@
 {
     "child-theme": {
-        "alertHeader": "Child Theme works fine! :)",
-        "alertText": "Check the developer tools of the browser if the <b>console.log()</b> command works too."
     }
 }
