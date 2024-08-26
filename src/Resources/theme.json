@@ -15,7 +15,6 @@
         "app/storefront/src/scss/base.scss"
     ],
     "script": [
-        "@Storefront",
         "@ParentThemeNamespace",
         "app/storefront/dist/storefront/js/r-h-web-child-theme-template.js"
     ],
