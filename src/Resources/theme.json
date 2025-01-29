@@ -16,7 +16,7 @@
     ],
     "script": [
         "@ParentThemeNamespace",
-        "app/storefront/dist/storefront/js/r-h-web-child-theme-template.js"
+        "app/storefront/dist/storefront/js/r-h-web-child-theme-template/r-h-web-child-theme-template.js"
     ],
     "asset": [
         "@Storefront",
